@@ -32,7 +32,6 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', routes.index);
-app.get('/control', routes.control);
 
 
 
