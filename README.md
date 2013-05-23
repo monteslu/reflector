@@ -1,4 +1,8 @@
-reflector
-=========
+A demo app doing JSON-RPC on websockets vs doing it over a traditional AJAX connection.
 
-simple rebroadcasting websocket server
+live demo running here:
+
+http://rpc.nodester.com
+
+make sure you use a browser that supports websockets to test this.
+
