@@ -1,8 +1,26 @@
 {
   "name": "reflector",
   "version": "0.1.0",
-  "private": true,
+  "main": "./index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "socket.io": "~0.9.14"
-  }
+  },
+  "readmeFilename": "README.md",
+  "gitHead": "3ad3281ad6a3c5e97b452afd257d73287f725d0f",
+  "description": "Broadcast socket messages to a channel",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/monteslu/reflector"
+  },
+  "keywords": [
+    "websocket",
+    "socket.io",
+    "broadcast"
+  ],
+  "author": "Luis Montes <luis@iceddev.com>",
+  "license": "MIT"
 }
